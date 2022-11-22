@@ -15,11 +15,6 @@ const LatestRelease = () => {
           <Col xs={12} md={4} className="text-center mb-2" key={book.asin}>
             <Card className="bg-dark text-white">
               <Card.Img src={book.img} alt="Card image" />
-              <Card.ImgOverlay>
-                <Card.Title>{book.title}</Card.Title>
-                <Card.Text>{book.category}</Card.Text>
-                <Card.Text>{book.price}</Card.Text>
-              </Card.ImgOverlay>
             </Card>
           </Col>
         ))}
@@ -30,11 +25,6 @@ const LatestRelease = () => {
           <Col xs={12} md={4} className="text-center mb-2" key={book.asin}>
             <Card className="bg-dark text-white">
               <Card.Img src={book.img} alt="Card image" />
-              <Card.ImgOverlay>
-                <Card.Title>{book.title}</Card.Title>
-                <Card.Text>{book.category}</Card.Text>
-                <Card.Text>{book.price}</Card.Text>
-              </Card.ImgOverlay>
             </Card>
           </Col>
         ))}
@@ -45,11 +35,6 @@ const LatestRelease = () => {
           <Col xs={12} md={4} className="text-center mb-2" key={book.asin}>
             <Card className="bg-dark text-white">
               <Card.Img src={book.img} alt="Card image" />
-              <Card.ImgOverlay>
-                <Card.Title>{book.title}</Card.Title>
-                <Card.Text>{book.category}</Card.Text>
-                <Card.Text>{book.price}</Card.Text>
-              </Card.ImgOverlay>
             </Card>
           </Col>
         ))}
@@ -60,11 +45,6 @@ const LatestRelease = () => {
           <Col xs={12} md={4} className="text-center mb-2" key={book.asin}>
             <Card className="bg-dark text-white">
               <Card.Img src={book.img} alt="Card image" />
-              <Card.ImgOverlay>
-                <Card.Title>{book.title}</Card.Title>
-                <Card.Text>{book.category}</Card.Text>
-                <Card.Text>{book.price}</Card.Text>
-              </Card.ImgOverlay>
             </Card>
           </Col>
         ))}
@@ -75,11 +55,6 @@ const LatestRelease = () => {
           <Col xs={12} md={4} className="text-center mb-2" key={book.asin}>
             <Card className="bg-dark text-white">
               <Card.Img src={book.img} alt="Card image" />
-              <Card.ImgOverlay>
-                <Card.Title>{book.title}</Card.Title>
-                <Card.Text>{book.category}</Card.Text>
-                <Card.Text>{book.price}</Card.Text>
-              </Card.ImgOverlay>
             </Card>
           </Col>
         ))}
