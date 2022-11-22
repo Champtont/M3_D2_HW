@@ -9,12 +9,12 @@ import { Container, Row, Col, Card } from "react-bootstrap";
 const LatestRelease = () => {
   return (
     <Container>
-      <h2>Horror</h2>
+      <h2 id="horror">Horror</h2>
       <Row>
         {horror.map((book) => (
-          <Col xs={12} md={4} className="text-center" key={book.asin}>
+          <Col xs={12} md={4} className="text-center mb-2" key={book.asin}>
             <Card className="bg-dark text-white">
-              <Card.Img className="img-fluid" src={book.img} alt="Card image" />
+              <Card.Img src={book.img} alt="Card image" />
               <Card.ImgOverlay>
                 <Card.Title>{book.title}</Card.Title>
                 <Card.Text>{book.category}</Card.Text>
@@ -24,12 +24,12 @@ const LatestRelease = () => {
           </Col>
         ))}
       </Row>
-      <h2>Fantasy</h2>
+      <h2 id="fantasy">Fantasy</h2>
       <Row>
         {fantasy.map((book) => (
-          <Col xs={12} md={4} className="text-center" key={book.asin}>
+          <Col xs={12} md={4} className="text-center mb-2" key={book.asin}>
             <Card className="bg-dark text-white">
-              <Card.Img className="img-fluid" src={book.img} alt="Card image" />
+              <Card.Img src={book.img} alt="Card image" />
               <Card.ImgOverlay>
                 <Card.Title>{book.title}</Card.Title>
                 <Card.Text>{book.category}</Card.Text>
@@ -39,12 +39,12 @@ const LatestRelease = () => {
           </Col>
         ))}
       </Row>
-      <h2>Sci-Fi</h2>
+      <h2 id="scifi">Sci-Fi</h2>
       <Row>
         {scifi.map((book) => (
-          <Col xs={12} md={4} className="text-center" key={book.asin}>
+          <Col xs={12} md={4} className="text-center mb-2" key={book.asin}>
             <Card className="bg-dark text-white">
-              <Card.Img className="img-fluid" src={book.img} alt="Card image" />
+              <Card.Img src={book.img} alt="Card image" />
               <Card.ImgOverlay>
                 <Card.Title>{book.title}</Card.Title>
                 <Card.Text>{book.category}</Card.Text>
@@ -54,12 +54,12 @@ const LatestRelease = () => {
           </Col>
         ))}
       </Row>
-      <h2>History</h2>
+      <h2 id="history">History</h2>
       <Row>
         {history.map((book) => (
-          <Col xs={12} md={4} className="text-center" key={book.asin}>
+          <Col xs={12} md={4} className="text-center mb-2" key={book.asin}>
             <Card className="bg-dark text-white">
-              <Card.Img className="img-fluid" src={book.img} alt="Card image" />
+              <Card.Img src={book.img} alt="Card image" />
               <Card.ImgOverlay>
                 <Card.Title>{book.title}</Card.Title>
                 <Card.Text>{book.category}</Card.Text>
@@ -69,12 +69,12 @@ const LatestRelease = () => {
           </Col>
         ))}
       </Row>
-      <h2>Romance</h2>
+      <h2 id="romance">Romance</h2>
       <Row>
         {romance.map((book) => (
-          <Col xs={12} md={4} className="text-center" key={book.asin}>
+          <Col xs={12} md={4} className="text-center mb-2" key={book.asin}>
             <Card className="bg-dark text-white">
-              <Card.Img className="img-fluid" src={book.img} alt="Card image" />
+              <Card.Img src={book.img} alt="Card image" />
               <Card.ImgOverlay>
                 <Card.Title>{book.title}</Card.Title>
                 <Card.Text>{book.category}</Card.Text>
